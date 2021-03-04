@@ -14,10 +14,12 @@ $ pip install -r req.txt
 How to Use? `
 -------------
 *Upload a csv file with a column name "word" in data folder.
-* Run dictionary.py file and provide the names of data file(the one in data folder with all the words) and results file (to be stored in results folder).
+* Run dictionary.py file and provide the names of data file (the one in data folder with all the words) and results file (to be stored in results folder).
 #### Example   
 ```console 
 $ python3 dictionary.py words.csv results.csv
 ```
 * Check results folder for a csv file with meanings.    
-    
+
+
+**For complete code description refer to dictionary.ipynb file** 
