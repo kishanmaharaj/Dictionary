@@ -1,4 +1,5 @@
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Py Dictionary
 A python program which extracts the meanings of words (CSV file) from Google Dictionary.
 https://googledictionary.freecollocation.com/
@@ -15,6 +16,5 @@ $ pip install -r req.txt
 ```console 
 $ python3 dictionary.py words.csv results.csv
 ```
- $ python3 dictionary.py words.csv results.csv
 * Check results folder for a csv file with meanings.    
     
