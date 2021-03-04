@@ -11,7 +11,7 @@ How to Use? `
 ```console 
 $ pip install -r req.txt 
 ```
-* Run dictionary.py file and provide the names of data file(the one i data folder with all the words) and results file(to e stored in results folder).
+* Run dictionary.py file and provide the names of data file(the one i data folder with all the words) and results file(to be stored in results folder).
 #### Example   
 ```console 
 $ python3 dictionary.py words.csv results.csv
