@@ -91,7 +91,6 @@ def write_csv(filename,header,rows):
         csvwriter = csv.writer(csvfile)  
         csvwriter.writerow(header)  
         csvwriter.writerows(rows)
-    return None
 
 
 def main(file_add,filename):
@@ -109,7 +108,6 @@ def main(file_add,filename):
     header = ["word","Meaning 1","Meaning 2", "Meaning 3", "Meaning 4"]
     write_csv(filename,header,rows)
     print("File Saved Successfully")
-    return None
 
 file_add = "data/" + sys.argv[1]
 filename = sys.argv[2]
